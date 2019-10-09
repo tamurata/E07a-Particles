@@ -30,7 +30,7 @@ PARTICLE_MAX_DECAY = 0.01
 
 class Particle(arcade.Sprite):
     def __init__(self, asset, scale, x, y, dx, dy, ax, ay, decay):
-        super().__init__("assets/{}.png".format(asset), scale)
+        super().__init__("assets/flame_01.png".format(asset), 1.0)
         self.center_x = x
         self.center_y = y
         self.dx = dx
